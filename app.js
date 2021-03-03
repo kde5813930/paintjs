@@ -80,7 +80,11 @@ function handleSaveClick() {
   const image = canvas.toDataURL();
   const link = document.createElement("a");
   link.href = image;
+  //href는 canvas.toDataURL();이 되어야함
   link.download = "PaintJS[🌈]";
+  //download는 a의 속성중 하나인데, browser에게 이 링크로 가는대신 url을 다운로드 하라고 지시하는 기능임
+  //download는 이름을 가져야함
+  console.log(link);
   link.click();
 }
 
