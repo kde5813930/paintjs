@@ -1,2 +1,7 @@
-# paintjs
-painting board made with vanillaJS
+# 🎨paintjs
+
+
+### 활용 기술
+- html
+- css
+- javascript
